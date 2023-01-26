@@ -1,4 +1,4 @@
-#!/usr/bin/env nodo
+#!/usr/bin/env node
 const { mdLinks } = require('./index.js');
 const { colors } = require('colors');
 const { totalLinks, uniqueLinks, brokenLinks } = require('./cliFunct.js');
@@ -6,8 +6,13 @@ const { totalLinks, uniqueLinks, brokenLinks } = require('./cliFunct.js');
 
 const options = process.argv.slice(2);
 const userPath = process.argv[2];
-const validate = options.includes('--validate' && '--v');
-const stats = options.includes('--stats' && '--s' );
+//const validate = options.includes('--validate' && '--v');
+//const stats = options.includes('--stats' && '--s' );
+
+const validate = options.includes('--validate') || options.includes('--v');
+const stats = options.includes('--stats') || options.includes('--s');
+
+console.log(validate)
 
 if(options.length === 1) {
     mdLinks(userPath, { validate:false } )
