@@ -20,7 +20,7 @@ const Help = () => {
     console.log(`🌺🌺🌺🌺🌺⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⌨️ 🔎   ENTER COMMANDS   🔎⌨️ ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️🌺🌺🌺`.bgCyan.brightMagenta.bold);
     console.log(`______________________________________________________________________________________________` .bgMagenta);
     console.log(`**********************************************************************************************`.bgMagenta.hidden);
-    console.log(`        🔹(--validate or --v )            ➡️     Shows an array with links and status.      `.bgMagenta.white.bold);
+    console.log(`        🔹(--validate or --v )            ➡️     Shows an array with links and status.         `.bgMagenta.white.bold);
     console.log(`        🔹(--stats or --s )               ➡️     Total and unique links.                       `.bgMagenta.bold);
     console.log(`        🔹(--validate --stats or --v --s) ➡️     Total , unique and broken links.              `.bgMagenta.bold);
     console.log(`        🔹(--help or --h)                 ➡️     Are you here!.                                `.bgMagenta.bold);
