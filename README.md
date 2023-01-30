@@ -9,11 +9,15 @@
 
 🔹Como usar Md-links.
 
-🔹Opciones.
+🔹Opciones de comandos.
+
+🔹Sin opciones.
 
 🔹Errores.
 
 🔹Como desinstalar Md-links.
+
+🔹Diagramas de flujo.
 
 ## Acerca de Md-links.
 
@@ -26,19 +30,19 @@ En este proyecto, md-linksse encuentra un ejecutable que lee y analiza archivos 
 ## Como instalar Md-links.
 
 Para instalar Md-links solo debes escribir en la terminal el siguiente comando:
-  
-  npm i md-links
 
-Ejemplo
+npm i md-links
+
+
 ![instalar](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/comando%20para%20instalar%20md-links.png)
 
 ## Como usar Md-links.
 
 🔹Use:
 
-md-links + [El path del archivo, (ejemplo: ./nombredeCarperta)] + [Opciones de comandos ]
+md-links + [La ruta del archivo, (ejemplo: ./nombredeCarperta)] + [Opciones de comandos]
 
-🔹Comandos:
+🔹Opciones de comandos:
 
 **(--validate o --v )** ➡️  Para ver enlaces de validación, realiza una solicitud HTTP para saber si el enlace funciona o no.
 
@@ -51,7 +55,7 @@ md-links + [El path del archivo, (ejemplo: ./nombredeCarperta)] + [Opciones de c
 **(--help o --h)** ➡️ Para ver el menú que muestra todos los comandos.
 
 
-## Opciones. 
+
 
 **(--validate o --v )**
 
@@ -92,6 +96,13 @@ Ejemplo:
 
 ![--help o --h](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/--help.png)
 
+## Sin Opciones 
+
+🔹Si solo se introduce la ruta sin ninguna opción.
+
+![validate=false](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/noOptions.png)
+
+
 ## Errores
 
 🔹 Si no se introduce ninguna ruta de directorio o archivo se muestra el  siguiente mensaje:
@@ -102,9 +113,6 @@ Ejemplo:
 
 ![error](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/error%20el%20path%20no%20existe.png)
 
-🔹Si solo se introduce la ruta sin ninguna opción.
-
-![validate=false](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/noOptions.png)
 
 **(Opcion errorea)**
 
@@ -112,8 +120,21 @@ Ejemplo:
 
 ![option-invalide](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/error%20comando%20invalido.png)
 
+
+
 ## Como desinstalar Md-links
 
 Para desinstalar Mde-links solo  debes ingresar en la terminal en la ubicación del archivo donde la has instalado el siguiente comando:
 
+npm uninstall -D md-links
+
 ![desinstalar](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/comando%20para%20desinstalar%20md-links.png)
+
+
+## Diagrama de flujo de Md-links
+
+![Diagrama](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/diagrama%20de%20flujo%20API.png)
+
+## Diagrama de flujo de linea de comando
+
+![LineaComando](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/Diagrama%20de%20flujo%20de%20cli.png)
