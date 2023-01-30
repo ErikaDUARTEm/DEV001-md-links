@@ -1,7 +1,7 @@
- # Md-Links  🔎⌨️ ⭐️⭐️⭐️
+ # MD-LINKS  🔎⌨️ ⭐️⭐️⭐️
 ![welcome](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/Welcome.png)
 
-## Indice
+## INDICE:
 
 🔹Acerca de Md-links.
 
@@ -19,7 +19,8 @@
 
 🔹Diagramas de flujo.
 
-## Acerca de Md-links.
+
+## ACERCA DE MD-LINKS.
 
 Markdown es un lenguaje de marcado ligero muy popular entre los desarrolladores. Se usa en muchas plataformas que manejan texto plano (GitHub, foros, blogs,...), y es muy común encontrar varios archivos en ese formato en cualquier tipo de repositorio (empezando por el tradicional README.md).
 
@@ -27,7 +28,7 @@ Estos archivos de Markdown suelen contener enlaces que a menudo están rotos o y
 
 En este proyecto, md-linksse encuentra un ejecutable que lee y analiza archivos en formato Markdown, para verificar los enlaces que contienen y reportar algunas estadísticas.
 
-## Como instalar Md-links.
+## COMO INSTALAR MD-LINKS.
 
 Para instalar Md-links solo debes escribir en la terminal el siguiente comando:
 
@@ -36,7 +37,7 @@ npm i md-links
 
 ![instalar](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/comando%20para%20instalar%20md-links.png)
 
-## Como usar Md-links.
+## COMO USAR MD-LINKS.
 
 🔹Use:
 
@@ -55,6 +56,7 @@ md-links + [La ruta del archivo, (ejemplo: ./nombredeCarperta)] + [Opciones de c
 **(--help o --h)** ➡️ Para ver el menú que muestra todos los comandos.
 
 
+## EJEMPLOS:
 
 
 **(--validate o --v )**
@@ -96,14 +98,14 @@ Ejemplo:
 
 ![--help o --h](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/--help.png)
 
-## Sin Opciones 
+## SIN OPCIONES.
 
 🔹Si solo se introduce la ruta sin ninguna opción.
 
 ![validate=false](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/noOptions.png)
 
 
-## Errores
+## ERRORES.
 
 🔹 Si no se introduce ninguna ruta de directorio o archivo se muestra el  siguiente mensaje:
 
@@ -122,7 +124,7 @@ Ejemplo:
 
 
 
-## Como desinstalar Md-links
+## COMO DESINSTALAR MD-LINKS.
 
 Para desinstalar Mde-links solo  debes ingresar en la terminal en la ubicación del archivo donde la has instalado el siguiente comando:
 
@@ -131,10 +133,10 @@ npm uninstall -D md-links
 ![desinstalar](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/comando%20para%20desinstalar%20md-links.png)
 
 
-## Diagrama de flujo de Md-links
+## DIAGRAMA DE FLUJO DE MD-LINKS.
 
 ![Diagrama](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/diagrama%20de%20flujo%20API.png)
 
-## Diagrama de flujo de linea de comando
+## DIAGRAMA DE FLUJO DE LINEA DE COMANDO.
 
 ![LineaComando](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/Diagrama%20de%20flujo%20de%20cli.png)
