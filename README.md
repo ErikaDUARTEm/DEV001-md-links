@@ -11,6 +11,10 @@
 
 🔹Opciones.
 
+🔹Errores.
+
+🔹Como desinstalar Md-links.
+
 ## Acerca de Md-links.
 
 Markdown es un lenguaje de marcado ligero muy popular entre los desarrolladores. Se usa en muchas plataformas que manejan texto plano (GitHub, foros, blogs,...), y es muy común encontrar varios archivos en ese formato en cualquier tipo de repositorio (empezando por el tradicional README.md).
@@ -21,7 +25,12 @@ En este proyecto, md-linksse encuentra un ejecutable que lee y analiza archivos 
 
 ## Como instalar Md-links.
 
-ESTA PARTE SE ENCUENTRA EN DESARROLLO.
+Para instalar Md-links solo debes escribir en la terminal el siguiente comando:
+  
+  npm i md-links
+
+Ejemplo
+![instalar](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/comando%20para%20instalar%20md-links.png)
 
 ## Como usar Md-links.
 
@@ -40,6 +49,7 @@ md-links + [El path del archivo, (ejemplo: ./nombredeCarperta)] + [Opciones de c
 **(--v  o  --s )** ➡️ Para ver estadísticas  sobre enlaces : total, unicos, y  rotos.
 
 **(--help o --h)** ➡️ Para ver el menú que muestra todos los comandos.
+
 
 ## Opciones. 
 
@@ -82,7 +92,7 @@ Ejemplo:
 
 ![--help o --h](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/--help.png)
 
-**(No hay opciones)**
+## Errores
 
 🔹 Si no se introduce ninguna ruta de directorio o archivo se muestra el  siguiente mensaje:
 
@@ -95,3 +105,15 @@ Ejemplo:
 🔹Si solo se introduce la ruta sin ninguna opción.
 
 ![validate=false](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/noOptions.png)
+
+**(Opcion errorea)**
+
+🔹 Si la opción que introduces no es ninguna de las que aparece en el menú de ayuda, la terminal te mostrará el siguiente error.
+
+![option-invalide](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/error%20comando%20invalido.png)
+
+## Como desinstalar Md-links
+
+Para desinstalar Mde-links solo  debes ingresar en la terminal en la ubicación del archivo donde la has instalado el siguiente comando:
+
+![desinstalar](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/comando%20para%20desinstalar%20md-links.png)
