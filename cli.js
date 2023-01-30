@@ -53,10 +53,12 @@ if(options.length === 1) {
         mdLinks(userPath, { validate:true })
         .then(Help())
         .catch((error)=> Error(error));
-    }else {
-        mdLinks(userPath, { validate:true })
+    }else if(!userPath){
+        mdLinks(userPath, { validate:false })
         .then(Error('✨✨✨✨  Please enter a file or directory path to continue ✨ ✨✨✨✨'))
         .catch((error)=>console.log(Error(error)));
+    }else {
+        Error(' This invalid command, if you need help use the command  --help  or --h');
     }
 }
 
