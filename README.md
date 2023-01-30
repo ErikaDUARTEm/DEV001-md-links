@@ -55,7 +55,7 @@ md-links + [La ruta del archivo, (ejemplo: ./nombredeCarperta)] + [Opciones de c
 **(--help o --h)** ➡️ Para ver el menú que muestra todos los comandos.
 
 
-
+🔹Ejemplos:
 
 **(--validate o --v )**
 
