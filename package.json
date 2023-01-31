@@ -32,7 +32,7 @@
   "md-linksek": "cli.js"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@ErikaDUARTEm:registry": "https://npm.pkg.github.com"
   },
   "bugs": {
     "url": "https://github.com/ErikaDUARTEm/DEV001-md-links/issues"
