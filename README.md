@@ -20,7 +20,7 @@
 🔹Diagramas de flujo.
 
 
-## ACERCA DE MD-LINKSek.
+## ACERCA DE MD-LINKSEK.
 
 Markdown es un lenguaje de marcado ligero muy popular entre los desarrolladores. Se usa en muchas plataformas que manejan texto plano (GitHub, foros, blogs,...), y es muy común encontrar varios archivos en ese formato en cualquier tipo de repositorio (empezando por el tradicional README.md).
 
@@ -28,16 +28,16 @@ Estos archivos de Markdown suelen contener enlaces que a menudo están rotos o y
 
 En este proyecto, md-linksse encuentra un ejecutable que lee y analiza archivos en formato Markdown, para verificar los enlaces que contienen y reportar algunas estadísticas.
 
-## COMO INSTALAR MD-LINKSek.
+## COMO INSTALAR MD-LINKSEK.
 
 Para instalar Md-links solo debes escribir en la terminal el siguiente comando:
 
 npm i md-linksek
 
 
-![instalar](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/comando%20para%20instalar%20md-links.png)
+![instalar](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/comando%20para%20instalar%20md-linksek.png)
 
-## COMO USAR MD-LINKSek.
+## COMO USAR MD-LINKSEK.
 
 🔹Use:
 
@@ -124,7 +124,7 @@ Ejemplo:
 
 
 
-## COMO DESINSTALAR MD-LINKSek.
+## COMO DESINSTALAR MD-LINKSEK.
 
 Para desinstalar Mde-links solo  debes ingresar en la terminal en la ubicación del archivo donde la has instalado el siguiente comando:
 
@@ -133,7 +133,7 @@ npm uninstall -D md-links
 ![desinstalar](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/comando%20para%20desinstalar%20md-links.png)
 
 
-## DIAGRAMA DE FLUJO DE MD-LINKSek.
+## DIAGRAMA DE FLUJO DE MD-LINKSEK.
 
 ![Diagrama](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/diagrama%20de%20flujo%20API.png)
 
