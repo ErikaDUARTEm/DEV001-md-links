@@ -1,13 +1,13 @@
- # MD-LINKS  🔎⌨️ ⭐️⭐️⭐️
+ # MD-LINKSEK  🔎⌨️ ⭐️⭐️⭐️
 ![welcome](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/Welcome.png)
 
 ## INDICE:
 
-🔹Acerca de Md-links.
+🔹Acerca de Md-linksek.
 
-🔹Como instalar Md-links.
+🔹Como instalar Md-linksek.
 
-🔹Como usar Md-links.
+🔹Como usar Md-linksek.
 
 🔹Opciones de comandos.
 
@@ -15,12 +15,12 @@
 
 🔹Errores.
 
-🔹Como desinstalar Md-links.
+🔹Como desinstalar Md-linksek.
 
 🔹Diagramas de flujo.
 
 
-## ACERCA DE MD-LINKS.
+## ACERCA DE MD-LINKSek.
 
 Markdown es un lenguaje de marcado ligero muy popular entre los desarrolladores. Se usa en muchas plataformas que manejan texto plano (GitHub, foros, blogs,...), y es muy común encontrar varios archivos en ese formato en cualquier tipo de repositorio (empezando por el tradicional README.md).
 
@@ -28,16 +28,16 @@ Estos archivos de Markdown suelen contener enlaces que a menudo están rotos o y
 
 En este proyecto, md-linksse encuentra un ejecutable que lee y analiza archivos en formato Markdown, para verificar los enlaces que contienen y reportar algunas estadísticas.
 
-## COMO INSTALAR MD-LINKS.
+## COMO INSTALAR MD-LINKSek.
 
 Para instalar Md-links solo debes escribir en la terminal el siguiente comando:
 
-npm i md-links
+npm i md-linksek
 
 
 ![instalar](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/comando%20para%20instalar%20md-links.png)
 
-## COMO USAR MD-LINKS.
+## COMO USAR MD-LINKSek.
 
 🔹Use:
 
@@ -124,7 +124,7 @@ Ejemplo:
 
 
 
-## COMO DESINSTALAR MD-LINKS.
+## COMO DESINSTALAR MD-LINKSek.
 
 Para desinstalar Mde-links solo  debes ingresar en la terminal en la ubicación del archivo donde la has instalado el siguiente comando:
 
@@ -133,7 +133,7 @@ npm uninstall -D md-links
 ![desinstalar](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/comando%20para%20desinstalar%20md-links.png)
 
 
-## DIAGRAMA DE FLUJO DE MD-LINKS.
+## DIAGRAMA DE FLUJO DE MD-LINKSek.
 
 ![Diagrama](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/diagrama%20de%20flujo%20API.png)
 

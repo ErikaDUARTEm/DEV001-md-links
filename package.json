@@ -1,5 +1,5 @@
 {
-  "name": "md-links",
+  "name": "md-linksek",
   "version": "0.0.1",
   "engines": {
     "node": ">=16.x"
@@ -29,10 +29,10 @@
   "author": "Erika Duarte",
   "license": "ISC",
   "bin": {
-  "md-links": "cli.js"
+  "md-linksek": "cli.js"
   },
   "publishConfig": {
-    "ErikaDUARTEm:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "bugs": {
     "url": "https://github.com/ErikaDUARTEm/DEV001-md-links/issues"
