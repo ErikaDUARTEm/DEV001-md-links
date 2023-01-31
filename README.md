@@ -102,7 +102,7 @@ Ejemplo:
 
 🔹Si solo se introduce la ruta sin ninguna opción.
 
-![validate=false](https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/noOptions.png)
+![validate=false]https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/noOptions.png)
 
 
 ## ERRORES.
